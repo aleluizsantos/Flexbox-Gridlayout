@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## FLEXBOX & GRID CSS
+![flex-grid](https://user-images.githubusercontent.com/16269962/74557584-32adb400-4f3f-11ea-968d-5bbc033df9e7.png)
 
-## Available Scripts
+### O que é flexbox e CSS grid?
 
-In the project directory, you can run:
+No início, usavasse uma tabela como forma de facilitar a elaboração dos layouts, que davam margem a diversos problemas.
+Na sequência, utilizar o float em vez de tabelas — o que foi um facilitador, pelo fato de ser um recurso mais flexível
+Surgiu o CSS flexbox layout, que veio para alinhar e distribuir espaços entre itens em um container, cuja ideia principal é dar a capacidade de alterar a largura, altura e a ordem dos elementos para promover um preenchimento melhor do espaço.
 
-### `yarn start`
+Entretanto o flexbox também apresentava problemas, ainda mais quando se trata das interfaces mais complexas. Sendo assim, O flexbox é usado para projetar layouts unidimensionais simplificados, com uma disposição em linha reta, e é mais indicado para os componentes de aplicativos e layouts em escala pequena. Já o CSS grid é destinado à criação de layouts bidimensionais de complexidade maior — é ideal para organizar a estrutura de um esquema com elementos de nível mais elevado, como cabeçalhos, rodapés, seções e sidebar.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Dessa forma, a diferença essencial observada entre os dois está na distribuição dos itens. Vale dizer que o CSS é considerado o primeiro módulo desenvolvido especialmente para resolver antigos problemas de elaboração de layout do passado. No entanto, é um erro pensar que ele chegou para ocupar o lugar do flexbox.
+Os dois recursos podem se complementar — já que um faz o que o outro não faz, ambos podem trabalhar em conjunto. Algumas coisas podem ser feitas com os dois, mas um executa de forma mais simples e melhor cada tipo de trabalho. 
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+### FLEXBOX
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+O flexbox pode também ser usado para trabalhar com elemento bidimensional, mas se sobre sai melhor quando trabalhado com os itens em apenas uma dimensão, ou seja, em coluna ou linha.
 
-### `yarn build`
+### GRID
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O grid pode ser usado para trabalhar com os itens em uma única dimensão; no entanto, é perfeito para dispor os elementos em duas dimensões, especialmente quando é preciso definir a estrutura de uma página (o que seria complicado com o flexbox).
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Desta forma, na criação do seu layout é permitido utilizar os dois recursos flexbox e grid.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
