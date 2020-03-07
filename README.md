@@ -25,3 +25,9 @@ O grid pode ser usado para trabalhar com os itens em uma única dimensão; no en
 
 Desta forma, na criação do seu layout é permitido utilizar os dois recursos flexbox e grid.
 
+### Screen
+![1 screen_SectionFlexbox](https://user-images.githubusercontent.com/16269962/76146777-74c8a200-6074-11ea-9bda-ec81d599df22.PNG)
+![2 screen_SectionGrid1Layout](https://user-images.githubusercontent.com/16269962/76146778-76926580-6074-11ea-9bd7-19dd03201f4c.PNG)
+![3 screen_SectionGrid2Layout](https://user-images.githubusercontent.com/16269962/76146780-77c39280-6074-11ea-8937-b4a9fc973f8f.PNG)
+![4 screen_SectionGrid3Layout](https://user-images.githubusercontent.com/16269962/76146782-798d5600-6074-11ea-9c32-3d09179b1b96.PNG)
+
