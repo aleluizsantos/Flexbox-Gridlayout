@@ -1,16 +1,20 @@
 import React from 'react';
 import './App.css';
 
-import lobo1 from './assets/lobo1.jpg';
-import lobo2 from './assets/lobo2.jpg';
-import lobo3 from './assets/lobo3.jpg';
-import lobo4 from './assets/lobo4.jpg';
+import react1 from './assets/react1.png';
+import react2 from './assets/react2.png';
+import react3 from './assets/react3.png';
+import react4 from './assets/react4.png';
+import react5 from './assets/react5.png';
+import logoReact from './assets/logoReact.png';
 
 function App() {
   return (
     <div>
       <header className="header">
-        <a href="">Logo</a>
+        <a href="/">
+          <img className="logoReact" src={logoReact} alt="logoReact"/>
+        </a>
         <nav>
           <ul className="menu">
             <li><a href="/">Sobre</a></li>
@@ -23,27 +27,27 @@ function App() {
       <h1>Section Flexbox</h1>
       <section className="flex">
         <div>
-          <img src={lobo1}/>
+          <img src={react1} alt="imageReact"/>
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo2}/>  
+          <img src={react2} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo3}/>  
+          <img src={react3} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo2}/>  
+          <img src={react4} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo1}/>  
+          <img src={react5} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo3}/>  
+          <img src={react1} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
       </section>
@@ -51,43 +55,43 @@ function App() {
       <h1>Section Grid1 Layout</h1>
       <section className="grid1">
         <div>
-          <img src={lobo1}/>
+          <img src={react1} alt="imageReact"/>
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo2}/>  
+          <img src={react2} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo3}/>  
+          <img src={react3} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo2}/>  
+          <img src={react4} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo1}/>  
+          <img src={react5} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo3}/>  
+          <img src={react1} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo2}/>  
+          <img src={react2} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo1}/>  
+          <img src={react3} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div>
-          <img src={lobo3}/>  
+          <img src={react4} alt="imageReact"/>  
           <p>Legenda</p>  
         </div>
         <div className="anuncio">
-          <img src={lobo1}/>  
+          <img src={react1} alt="imageReact"/>  
           <p>Anúncio</p>  
         </div>
       </section>
@@ -95,24 +99,24 @@ function App() {
       <h1>Section Grid2 Layout</h1>
       <section className="grid2">
         <div className="video">
-          <img src={lobo1} />
+          <img src={react1} alt="imageReact" />
           <h2>Como Criar sites</h2>
         </div>
         <div className="sidebar">
           <div>
-            <img src={lobo2} />
+            <img src={react2} alt="imageReact" />
             <p>Legenda</p>
           </div>
           <div>
-            <img src={lobo3} />
+            <img src={react3} alt="imageReact" />
             <p>Legenda</p>
           </div>
           <div>
-            <img src={lobo1} />
+            <img src={react4} alt="imageReact" />
             <p>Legenda</p>
           </div>
           <div>
-            <img src={lobo3} />
+            <img src={react5} alt="imageReact" />
             <p>Legenda</p>
           </div>
         </div>
@@ -121,15 +125,15 @@ function App() {
       <h1>Section Grid3 Layout</h1>
       <section className="grid3">
         <div className="grid3-item">
-          <img src={lobo4} />
+          <img src={react4} alt="imageReact" />
           <p>Legenda</p>
         </div>
         <div className="grid3-item">
-          <img src={lobo1} />
+          <img src={react1} alt="imageReact" />
           <p>Legenda</p>
         </div>
         <div className="grid3-item">
-          <img src={lobo2} />
+          <img src={react2} alt="imageReact" />
           <p>Legenda</p>
         </div>
       </section>
@@ -139,23 +143,3 @@ function App() {
 }
 
 export default App;
-
-
-{/* <div className="container">
-      <header>
-        <h1>My Website</h1>
-        <p>Probably the best website in the world</p>
-      </header>
-      <main>
-        <article>
-          <h2>Tile headein</h2>
-          <h3>Title description</h3>
-          <p>Lorem ipsum dolor</p>
-          <p>sunt in cupa qui officia</p>
-        </article>
-        
-      </main>
-      <footer>
-        <p>Copyright &copy; 2020, Coding Alessandro</p>
-      </footer>
-    </div> */}

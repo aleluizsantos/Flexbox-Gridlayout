@@ -27,8 +27,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: 8px;
   align-items: center;
+}
+.logoReact {
+  height: 50px;
+  width: 50px;
 }
 .menu {
   display: flex;
@@ -152,70 +156,3 @@ img {
    grid-row: 2 / 3 ;
    align-self: flex-end;
  }
-/* header {
-  text-align: center;
-  background-color: #333;
-  color: #fff;
-  padding: 50px;
-  
-}
-main {
-  margin: 0 auto;
-  padding: 30px 20px;
-  background-color: green;
-  height: calc(100vh - 215px);
-  overflow: auto;
-} */
-
-/*.container {
-  background-color: green;
-  display: flex;
-  flex-direction: column;
-  height: 100vh; 
-}
- header {
-  text-align: center;
-  background-color: #333;
-  color: #fff;
-  padding: 50px;
-  width: 90vw;
-}
-header h1 {
-  font-size: 40px;
-  margin-bottom: 30px;
-}
-header p {
-  font-size: 22px;
-}
-main {
-  width: 90vw;
-  margin: 0 auto;
-  padding: 30px 20px;
-  min-height: calc(100vh - 415px);  
-}
-article {
-  background-color: gray;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-article:last-child {
-  margin-bottom: 0;
-}
-article h3 {
-  margin: 10px 0 25px 0;
-}
-article p {
-  margin-top: 16px;
-  line-height: 24px;
-} */
-/* footer {
-  text-align: center;
-  background-color: #292929;
-  color: #fff;
-  padding: 15px;
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-}  */
-
